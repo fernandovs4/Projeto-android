@@ -35,7 +35,7 @@ h2{
     position: relative;
     background-color: var(--cor0);
     padding: 5px;
-    margin: 2px -49px;
+    margin: 2px -29px;
     height: 22em;
 }
 .video > iframe{
@@ -81,12 +81,12 @@ body{
 /*main*/
 
 main{
-    max-width: 800px;
+    max-width: 900px;
     align-items: center;
     text-align: justify;
     margin: 0 auto;
     background-color: white;
-    padding: 1rem 3rem;
+    padding: 1rem 1.8rem;
     box-shadow: 1px 1px 14px #514b4b;
     border-radius: 0.5em;
 }
@@ -116,6 +116,7 @@ p{
 
     
 }
+
 .titulo_curiosidade {
     font-size: small;
     background-color:var(--cor3);
@@ -145,6 +146,8 @@ picture > img {
 .curiosidades > ul{
     columns: 2;
     margin-left: 0em;
+    text-align:start;
+    padding: 0px;
    
 
 }
