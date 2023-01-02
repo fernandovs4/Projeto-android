@@ -81,12 +81,12 @@ body{
 /*main*/
 
 main{
-    max-width: 940px;
+    max-width: 1000px;
     align-items: center;
     text-align: justify;
     margin: 0 auto;
     background-color: white;
-    padding: 1rem 1.8rem;
+    padding: 1rem 1.6rem;
     box-shadow: 1px 1px 14px #514b4b;
     border-radius: 0.5em;
 }
