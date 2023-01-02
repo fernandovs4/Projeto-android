@@ -35,14 +35,14 @@ h2{
     position: relative;
     background-color: var(--cor0);
     padding: 5px;
-    margin: 2px -29px;
-    height: 22em;
+    margin: 2px ;
+    height: 21em;
 }
 .video > iframe{
     position: absolute;
-    left: 5%;
+    left: 2%;
     top: 5%;
-    width: 90%;
+    width: 96%;
     
 
 }
@@ -81,7 +81,7 @@ body{
 /*main*/
 
 main{
-    max-width: 900px;
+    max-width: 940px;
     align-items: center;
     text-align: justify;
     margin: 0 auto;
