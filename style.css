@@ -1,0 +1,161 @@
+@charset "UTFF-8";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+/*Podemos utilizar as nossas cores atraves de variaveis
+:root{
+    --cor0: #as34ff
+    --cor1: #ff1234
+
+}
+se declara asssim:
+color: var(--cor0)
+*/
+
+
+:root{
+    --cor0: #154C2E;
+    --cor1: #3CD781;
+    --cor2: #5cd894;
+    --cor3: #2FA866;
+}
+
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format ('opentype');
+  }
+
+
+h2{
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.video{
+    position: relative;
+    background-color: var(--cor0);
+    padding: 5px;
+    margin: 2px -49px;
+    height: 22em;
+}
+.video > iframe{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    
+
+}
+
+header{
+    background-image: linear-gradient(to top, var(--cor0), var(--cor1));
+    text-align: center;
+}
+header > nav > a:hover{
+    background-color: var(--cor1);
+    border-radius: 2px;
+
+}
+
+header >nav{
+    text-align: left;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+header > h1{
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+}
+body{
+    margin: 0px;
+    font-family: 'idroid', sans-serif;
+    background-color: var(--cor2)
+}
+
+/*main*/
+
+main{
+    max-width: 800px;
+    align-items: center;
+    text-align: justify;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1rem 3rem;
+    box-shadow: 1px 1px 14px #514b4b;
+    border-radius: 0.5em;
+}
+    
+
+main > h1{
+    color: #154C2E;
+}
+main h2 {
+    color: var(--cor1);
+    background-image: linear-gradient(to right, #C6EAD6, white);
+    padding-left: 0.5rem;
+    
+}
+
+.bug{
+    display: block;
+    margin: auto;
+}
+p{
+    text-indent: 1.5rem;
+}
+.curiosidades{
+    background-color: #C5EBD6;
+    padding: 0.3em 1.5em;
+    border-radius: 0px 0px 0.6em 0.6em;
+
+    
+}
+.titulo_curiosidade {
+    font-size: small;
+    background-color:var(--cor3);
+    color: white;
+    background-image: none;
+    padding: 1em 0.4em;
+    margin:  0px;
+    border-radius: 0.6em 0.6em 0px 0px;
+
+}
+footer{
+    
+    text-align: center;
+    background-color:var(--cor0) ;
+    color: white;
+    font-weight: bolder;
+    margin-top: 16px;
+}
+footer > p{
+    margin: 1px 0px;
+    padding: 2px 0px;
+}
+picture > img {
+    display: block;
+    margin: auto;
+}
+.curiosidades > ul{
+    columns: 2;
+    margin-left: 0em;
+   
+
+}
+
+
+
+.dan{
+    text-decoration: none;
+
+}
+    
+.dan::after {
+    content: '\00A0\1F517';
+}
